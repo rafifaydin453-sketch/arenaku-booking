@@ -1,0 +1,69 @@
+# =========================================================
+# ArenaKu - .gitignore
+# Jangan commit kredensial, file runtime, atau hasil packaging.
+# =========================================================
+
+# --- Konfigurasi rahasia / lokal ---
+/config/midtrans_keys.php
+/config/environment.php
+/config/koneksi.local.php
+.env
+.env.*
+!.env.example
+
+# --- Upload runtime (bukti pembayaran & foto lapangan) ---
+/assets/img/bukti/*
+!/assets/img/bukti/.htaccess
+!/assets/img/bukti/index.html
+/assets/img/lapangan/*
+!/assets/img/lapangan/.htaccess
+!/assets/img/lapangan/index.html
+
+# --- Video/berkas upload tak terpakai di folder admin ---
+/admin/*.mp4
+/admin/*.mov
+/admin/*.avi
+
+# --- Cache, log, dan file sementara ---
+/cache/
+/tmp/
+/temp/
+/storage/logs/
+*.log
+*.tmp
+*.temp
+*.cache
+
+# --- Dependency Node (jika memakai tools QR via Node) ---
+/node_modules/
+
+# --- Hasil packaging / arsip ---
+/dist/
+*.zip
+
+# --- Editor & OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Berkas development yang tidak dipakai aplikasi ---
+/test_koneksi.php
+/style-guide.php
+/assets/pe
+
+# --- SQL lama yang sudah digabung ke arenaku_install.sql ---
+/database/arenaku.sql
+/database/migrasi_*.sql
+
+# --- File kunci/backup tambahan ---
+*.pem
+*.key
+*.p12
+*.pfx
+*.bak
+*.orig
+*.rej

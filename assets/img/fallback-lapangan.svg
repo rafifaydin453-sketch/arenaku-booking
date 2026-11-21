@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Foto lapangan belum tersedia">
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#173f2d"/>
+            <stop offset="1" stop-color="#0d2a1d"/>
+        </linearGradient>
+        <pattern id="lines" width="64" height="64" patternUnits="userSpaceOnUse">
+            <path d="M64 0H0v64" fill="none" stroke="#d7f36a" stroke-opacity="0.07"/>
+        </pattern>
+    </defs>
+    <rect width="1200" height="675" fill="url(#bg)"/>
+    <rect width="1200" height="675" fill="url(#lines)"/>
+    <g fill="none" stroke="#d7f36a" stroke-opacity="0.5" stroke-width="3">
+        <rect x="70" y="70" width="1060" height="535" rx="18"/>
+        <path d="M600 70v535"/>
+        <circle cx="600" cy="337" r="92"/>
+        <circle cx="600" cy="337" r="5" fill="#d7f36a" stroke="none"/>
+        <path d="M70 220h118v234H70M1130 220h-118v234h118"/>
+    </g>
+    <g fill="#f7f2e4" font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+        <text x="600" y="315" font-size="26" letter-spacing="8" opacity="0.65">ARENAKU</text>
+        <text x="600" y="388" font-size="58" font-weight="700" letter-spacing="-1">Foto lapangan</text>
+        <text x="600" y="440" font-size="28" opacity="0.7">belum tersedia</text>
+    </g>
+</svg>

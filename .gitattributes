@@ -1,0 +1,33 @@
+# Normalisasi line ending untuk repository lintas platform
+* text=auto eol=lf
+
+# File teks
+*.php text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.lock text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.sql text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+*.htaccess text eol=lf
+*.svg text eol=lf
+
+# File binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.mp4 binary
+*.zip binary
+*.pdf binary

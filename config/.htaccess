@@ -1,0 +1,10 @@
+# Larangan akses web ke folder config
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule \.(php|sql|ini|json)$ - [F,L]
+</IfModule>
+
+# Fallback (Apache 2.4 tanpa mod_rewrite)
+<FilesMatch "\.(php|sql|ini|json)$">
+    Require all denied
+</FilesMatch>
